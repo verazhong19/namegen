@@ -35,7 +35,7 @@ class App extends Component {
       </div>
 
       <div>
-        <ButtonRep onClick={function () {
+        <ButtonRep bsStyle="success" onClick={function () {
           this.setState({
             nowSelectedStudent: randomRep(studentList),
           })
